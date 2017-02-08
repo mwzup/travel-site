@@ -1,18 +1,10 @@
-/* My Custom Styles */
+/****** Import - normalize.css *********/
 
-$mainBlue: #334477;
+	@import "normalize.css";
 
-body {
-	color: $mainBlue;
-	background-color: red;
-	font-size: 12px;
-	columns: 300px 2;
-}
+	/**** Travel Site Custom Styles ********/
 
-.box {
-	a {
-		display: block;
-		padding: 10px;
-	}
-
-}
+	@import "base/_global";
+	@import "base/_variables";
+	@import "modules/_btn";
+	@import "modules/_large-hero";
